@@ -1,0 +1,47 @@
+@font-face {
+	font-family:"londrinaSketcheRegular";
+    src: url('./fonts/londrinaSketcheRegular.otf?') format('OpenType');
+}
+
+@font-face {
+    font-family:"londrinaBookRegular";
+   src: url('./fonts/londrinaBookRegular.otf?') format('OpenType');
+} 
+
+.flex-container-navbar {
+    display: inline-block;  
+    background-color:transparent;
+    justify-content: flex-start; 
+    padding: 0px 4px 0px 5px;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-left: 0px;
+    z-index: 20;
+
+}
+
+.runningLight {
+    background-color:red;
+    text-align: center;
+    color: white;
+    font-family: "londrinaSketcheRegular";
+    font-size: 1.5vw;
+    margin-right: 17px;
+    margin-left: 4px;
+}     
+
+.linkcontainer {
+    display: inline-block;
+    padding: 4px 8px 8px 4px;
+    margin-right: 10px;
+    background-color: transparent;
+    text-align: center;
+    color: #98d6ea;
+    font-family: "londrinaSketcheRegular";
+    font-size: 2.25vw;
+    z-index: 25;
+
+}
+  .placeholderText {
+    display: inline-block;
+  }    

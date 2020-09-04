@@ -1,0 +1,109 @@
+.Timer2Container {
+  margin-top: 800px;
+  background-color: red;
+  display: inline-flex;
+}
+
+
+.TimerApp{ 
+  margin-top: 100px;
+  text-align: center;
+    background-color: green;
+    min-height: 20vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .TimerApp2 { 
+    margin-top: 100px;
+    text-align: center;
+      background-color:#282c34;
+      min-height: 5vh;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: calc(10px + 2vmin);
+      color: white;
+    }
+
+  .Time2 {
+    font-size: 3rem;
+    padding: 2rem;
+  }
+  
+  .button-primary {
+    padding: .5rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-style: groove;
+    background-color: yellow;
+  }
+
+  .buttonReset {
+    padding: .5rem;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-style: groove;
+    background-color: yellow;
+  }
+  
+  .buttonReset:focus {
+    outline-width: 0;
+    font-size: 1rem;
+  }
+  
+  .button-primary:hover {
+    background-color: #2641d4;
+    color: white;
+    border: 1px solid #1b1f2b;
+  }
+
+  .buttonReset:hover {
+    background-color: red;
+    color: white;
+    border: 1px solid #1b1f2b;
+  }
+  
+  
+  .button-primary-inactive {
+    background-color: yellow;
+    border: 1px solid #152684;
+    color: blue;
+    font-size: 1rem;
+  }
+
+  .CarouselContainer{
+    background-color: btransparent;
+    margin: 10px auto 0 auto;
+    display: inline-flex;  
+}
+.FixedTextContainer{
+    background-color: transparent; 
+    display: inline-flex;
+    color: yellow;
+    font-family:"Eurostile";
+    font-weight: 200;
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-right: 5px;
+    z-index: 3;  
+}
+.VariableTextContainer{
+    background-color: transparent;
+    margin-left: 10px; 
+    display: inline-flex; 
+    color: yellow;
+    font-family:"Eurostile";
+    font-weight: 200;
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-right: 5px;
+    z-index: 3;  
+}

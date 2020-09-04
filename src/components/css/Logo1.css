@@ -1,0 +1,22 @@
+box-sizing: border-box;ß
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: darkgrey;
+}
+
+
+#divCanvas1 {
+  height: 175px;
+  width: 200px;
+  display: block;
+  background-color: transparent;
+}
