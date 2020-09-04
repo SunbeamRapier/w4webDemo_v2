@@ -1,0 +1,92 @@
+@font-face {
+	font-family:"londrinaSketcheRegular";
+    src: url('./fonts/londrinaSketcheRegular.otf?') format('OpenType');
+}
+
+@font-face {
+    font-family:"londrinaBookRegular";
+   src: url('./fonts/londrinaBookRegular.otf?') format('OpenType');
+} 
+
+@font-face {
+    font-family:"Eurostile";
+   src: url('./fonts/Eurostile.ttf?') format('TrueType');
+} 
+
+{/*
+.HeaderGapFillElement {
+    background-color: blue;
+    color: white;
+    width: 100%;
+    font-family: Eurostile;
+    font-size: 2vw;
+    z-index: 90; 
+    margin-top: -20px;
+    position: fixed;
+}       
+*/}
+
+
+.HeaderEnclosingContainer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 100%;
+    position: fixed; 
+    z-index: 10; 
+    margin-top: -30px; 
+}
+
+.HeaderElementsContainer{
+    background-color:transparent;   
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    z-index: 9;  
+}
+
+.LogoContainer {
+    background-color:transparent;
+    max-width: 700px;
+    display: inline-block;
+}
+
+.LogoContainer1{
+    display: inline-block;
+    padding: 0px 4px 5px 25px;
+    align-self: flex-start;
+    background-color:black;
+} 
+
+.LogoContainer2{
+    display: inline-block;
+    right: 20px;
+    padding: 0px 10px 0px 5px;
+    align-self: flex-start;
+    background-color:black;
+} 
+
+.LogoContainer3{
+    display: inline-block;
+    right: 600px;
+    padding: 0px 15px 4px 5px;
+    align-self: flex-end;
+    background-color:black;
+} 
+  .placeholderText {
+    display: inline-block;
+  }
+  .byLineContainer {
+    display: inline-block;
+    background-color: black;
+    font-size: 2vw;
+    color: yellow;
+    font-family: "Eurostile";
+    align-self: flex-end;
+    text-align: right;
+    color: yellow;
+    margin-top: 20px;
+    margin-left: 0px;
+    padding: 10px, 10px, 10px, 25px;
+  }   
